@@ -1,23 +1,27 @@
 // Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from './assets/imgs/logo.svg';
 
 const Header = () => {
     const main = '/AstroBlog/';
 
-  return (
-    <header>
-      <h1>Blog de Astronomia</h1>
-      <nav>
-        <ul>
-        <li><Link to={`${main}`}>Início</Link></li>
-          <li><Link to={`${main}posts`}>Posts</Link></li>
-          <li><Link to={`${main}sobre`}>Sobre</Link></li>
-          <li><Link to={`${main}criar-post`}>Criar post</Link></li>
-        </ul>
-      </nav>
-    </header>
-  );
+    return (
+        <header>
+            <div class="nav-header">
+                
+        <img src={logo} alt="logo"/>
+                <nav>
+                    <ul>
+                        <li><Link to={`${main}`}>Início</Link></li>
+                        <li><Link to={`${main}posts`}>Posts</Link></li>
+                        <li><Link to={`${main}sobre`}>Sobre</Link></li>
+                        <li><Link to={`${main}criar-post`}>Criar post</Link></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    );
 };
 
 export default Header;
