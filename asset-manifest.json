@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/AstroBlog/static/css/main.31d6cfe0.css",
-    "main.js": "/AstroBlog/static/js/main.ab965495.js",
+    "main.js": "/AstroBlog/static/js/main.172e1ea2.js",
+    "static/media/logo.svg": "/AstroBlog/static/media/logo.c054812480e0ff8ff24516aa81765d26.svg",
     "index.html": "/AstroBlog/index.html",
-    "main.ab965495.js.map": "/AstroBlog/static/js/main.ab965495.js.map"
+    "main.172e1ea2.js.map": "/AstroBlog/static/js/main.172e1ea2.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.ab965495.js"
+    "static/js/main.172e1ea2.js"
   ]
 }
