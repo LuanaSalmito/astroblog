@@ -8,7 +8,7 @@ import Posts from './BlogPosts';
 
 function App() {
 
-  const main = '/';
+  const main = '/AstroBlog/';
 
   return (
     <Router>
