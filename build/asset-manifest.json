@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/AstroBlog/static/css/main.31d6cfe0.css",
-    "main.js": "/AstroBlog/static/js/main.e8c7c720.js",
+    "main.js": "/AstroBlog/static/js/main.a89bb35f.js",
     "index.html": "/AstroBlog/index.html",
-    "main.e8c7c720.js.map": "/AstroBlog/static/js/main.e8c7c720.js.map"
+    "main.a89bb35f.js.map": "/AstroBlog/static/js/main.a89bb35f.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.e8c7c720.js"
+    "static/js/main.a89bb35f.js"
   ]
 }
