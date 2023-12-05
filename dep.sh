@@ -7,7 +7,6 @@ git add .
 git commit -m "ok"
 git push
 
-
 if git checkout deploy; then
     git rm -r .
     git checkout -f main build
@@ -20,12 +19,12 @@ if git checkout deploy; then
     # Create .htaccess file
     echo "<IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /
+  RewriteBase /AstroBlog/
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-l
-  RewriteRule . /index.html [L]
+  RewriteRule . /AstroBlog/index.html [L]
 </IfModule>
 " > .htaccess
 
