@@ -1,7 +1,8 @@
 import React from 'react';
 
 import './assets/styles/blackhole.css';
-import Video from './assets/videos/buraconegro.mp4';
+import Video from './assets/videos/buraco.mp4';
+
 
 
 const BlackHole = () => {
@@ -16,11 +17,12 @@ const BlackHole = () => {
         </div>
 
         <div className='videoblackhole'>
-            <video className="video" autoPlay loop muted>
+             <video className="video" autoPlay loop muted>
           <source src={Video} type="video/mp4"/>
 
-            </video>
+            </video> 
         </div>
+
 
 
 

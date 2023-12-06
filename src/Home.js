@@ -1,6 +1,6 @@
 import React from 'react';
-import terra from './assets/imgs/terra.png';
-import seta from './assets/imgs/teste2.svg';
+import terra from './assets/imgs/terradeskgrande.jpg';
+// import seta from './assets/imgs/teste2.svg';
 import './assets/styles/home.css';
 
 
@@ -27,7 +27,7 @@ const Home = () => {
               <p>Explore os posts</p>
             </div>
 
-            <div className='img-seta'><img src={seta} alt="seta"></img></div>
+            {/* <div className='img-seta'><img src={seta} alt="seta"></img></div> */}
 
           </div>
         </div>
