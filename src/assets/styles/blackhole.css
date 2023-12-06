@@ -1,0 +1,16 @@
+.conteudoBlackHole{
+    background-image: url(../imgs/bc.jpg);
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.video{
+    max-width: 300px;
+}
+.video-blackhole{
+    max-width: 300px;
+    max-height: 100px;
+ 
+}

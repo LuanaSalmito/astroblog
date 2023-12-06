@@ -15,7 +15,7 @@ const Curiosidade = () => {
         </div>
 
         <div className='content'>
-            
+
             <div>
                 Buracos negros
             </div>
@@ -31,6 +31,7 @@ const Curiosidade = () => {
             <div>
                 Fim do mundo
             </div>
+            
         </div>
 
 

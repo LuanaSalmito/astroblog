@@ -7,6 +7,7 @@ import Footer from './Footer';
 import Posts from './BlogPosts';
 import Home from './Home';
 import Curiosidade from './Curiosidade';
+import BuracoNegro from './BlackHole';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Header />
           <Home />
           <Curiosidade />
+          <BuracoNegro />
   
 </div>
         <div>
