@@ -1,0 +1,29 @@
+.logo{
+    max-width: 140px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+  
+    gap: 32px;
+}
+  
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+  
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../imgs/bc.jpg);
+    background-size: cover;
+   
+}

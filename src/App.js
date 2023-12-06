@@ -5,6 +5,9 @@ import CriarPost from './CriarPost';
 import Header from './Header';
 import Footer from './Footer';
 import Posts from './BlogPosts';
+import Home from './Home';
+import Curiosidade from './Curiosidade';
+
 
 function App() {
 
@@ -14,8 +17,13 @@ function App() {
     <Router>
       <div className="App">
 
-        <Header />
-
+<div className='header-home'>
+  
+          <Header />
+          <Home />
+          <Curiosidade />
+  
+</div>
         <div>
           <Routes>
 
@@ -26,7 +34,6 @@ function App() {
             <Route
               path={`${main}posts`} element={<Posts />}
             ></Route>
-
 
 
           </Routes>

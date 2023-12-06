@@ -1,7 +1,9 @@
-// Header.js
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './assets/imgs/logo.svg';
+import './assets/styles/header.css';
+
 
 const Header = () => {
     const main = '/AstroBlog/';
@@ -9,8 +11,8 @@ const Header = () => {
     return (
         <header>
             <div class="nav-header">
-                
-        <img src={logo} alt="logo"/>
+
+                <img className='logo' src={logo} alt="logo" />
                 <nav>
                     <ul>
                         <li><Link to={`${main}`}>Início</Link></li>

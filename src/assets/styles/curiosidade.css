@@ -1,0 +1,12 @@
+.CuriosidadeContent{
+    background-color: #080808;
+    min-height: 450px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
