@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/AstroBlog/static/css/main.90fd655f.css",
-    "main.js": "/AstroBlog/static/js/main.17cefab7.js",
+    "main.css": "/AstroBlog/static/css/main.c2481a1b.css",
+    "main.js": "/AstroBlog/static/js/main.0f47324f.js",
     "static/media/buraco.mp4": "/AstroBlog/static/media/buraco.b71f902fe5ca6d1ce7ea.mp4",
+    "static/media/sol.jpg": "/AstroBlog/static/media/sol.9b32f0942059914db37f.jpg",
     "static/media/bc.jpg": "/AstroBlog/static/media/bc.ec0ab619c651691c4e68.jpg",
     "static/media/terradeskgrande.jpg": "/AstroBlog/static/media/terradeskgrande.13deab95e40a5ac7b455.jpg",
     "static/media/logo.svg": "/AstroBlog/static/media/logo.9686c95e2a623211057a9d7176e39742.svg",
     "index.html": "/AstroBlog/index.html",
-    "main.90fd655f.css.map": "/AstroBlog/static/css/main.90fd655f.css.map",
-    "main.17cefab7.js.map": "/AstroBlog/static/js/main.17cefab7.js.map"
+    "main.c2481a1b.css.map": "/AstroBlog/static/css/main.c2481a1b.css.map",
+    "main.0f47324f.js.map": "/AstroBlog/static/js/main.0f47324f.js.map"
   },
   "entrypoints": [
-    "static/css/main.90fd655f.css",
-    "static/js/main.17cefab7.js"
+    "static/css/main.c2481a1b.css",
+    "static/js/main.0f47324f.js"
   ]
 }
