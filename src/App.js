@@ -8,6 +8,7 @@ import Posts from './BlogPosts';
 import Home from './Home';
 import Curiosidade from './Curiosidade';
 import BuracoNegro from './BlackHole';
+import Sol from './Sol';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Home />
           <Curiosidade />
           <BuracoNegro />
+          <Sol />
   
 </div>
         <div>

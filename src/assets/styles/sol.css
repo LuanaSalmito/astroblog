@@ -1,0 +1,13 @@
+.content{
+    background-color: #080808;
+    min-height: 450px;
+    display: flex;
+}
+
+.img-sun img{
+    max-width: 250px;
+}
+.img-sun{
+    flex:1;
+    
+}

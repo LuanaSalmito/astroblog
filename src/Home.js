@@ -24,7 +24,7 @@ const Home = () => {
           <div className='botao'>
 
             <div className='chama-posts'>
-              <p>Explore os posts</p>
+              <p>Explore os nossos posts</p>
             </div>
 
             {/* <div className='img-seta'><img src={seta} alt="seta"></img></div> */}
